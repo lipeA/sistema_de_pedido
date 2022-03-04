@@ -24,6 +24,7 @@ body{
 .logo img{
     width: 40%;
     cursor: pointer;
+    border-radius: 10px;
 }
 .pratos{
     padding: 0px 10px 0px 10px;
@@ -55,6 +56,8 @@ body{
 }
 .opcao-comida img{
     width: 30%;
+    border-radius: 15px;
+    margin-top: 15px;
 }
 .opcao-comida:hover{
     cursor: pointer;
@@ -72,7 +75,9 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .opcao-bebida img{
-    width: 30%;
+    margin-top: 25px;
+    width: 40%;
+    border-radius: 15px;
 }
 .opcao-bebida{
     background-color: white;
@@ -82,11 +87,24 @@ body{
     padding: 5px;
     border-radius: 25px;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 .opcao-bebida:hover{
     cursor: pointer;
     transition: 1s;
 	transform:scale(1.2,1.2);
+}
+.sobremesas{
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    padding-bottom: 55px;
+}
+.sobremesas h3{
+    font-size: 29px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .opcao-sobre{
     background-color: white;
@@ -103,5 +121,27 @@ body{
 	transform:scale(1.2,1.2);
 }
 .opcao-sobre img{
-    width: 30%;
+    margin-top: 25px;
+    border-radius: 15px;
+    width: 40%;
+}
+.rodape{
+    margin-top: 35px;
+     height: 150px;
+    
+}
+.rodape button{
+    font-size: 20px;
+    width: 650px;
+    height: 60px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: green;
+    color: wheat;
+}
+.rodape button:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+    transition: 1s;
+	transform:scale(1.2,1.2);
 }
