@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEEEEE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topo{
+    color: wheat;
+    padding: 15px 0px 15px 0px;
+    margin: 0px auto;
+    background-color: red;
+    caret-color: white;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    width: 50%;
+}
+.logo{
+   
+}
+.logo img{
+    width: 40%;
+    cursor: pointer;
+}
+.pratos{
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+.pratos h3{
+    font-size: 29px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.center{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+.opcao-comida{
+    background-color: white;
+    height: 150px;
+    width: 22%;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.opcao-comida img{
+    width: 30%;
+}
+.opcao-comida:hover{
+    cursor: pointer;
+    transition: 1s;
+	transform:scale(1.2,1.2);
+}
+.bebidas{
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+.bebidas h3{
+    font-size: 29px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.opcao-bebida img{
+    width: 30%;
+}
+.opcao-bebida{
+    background-color: white;
+    height: 150px;
+    width: 22%;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.opcao-bebida:hover{
+    cursor: pointer;
+    transition: 1s;
+	transform:scale(1.2,1.2);
+}
+.opcao-sobre{
+    background-color: white;
+    height: 150px;
+    width: 22%;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.opcao-sobre:hover{
+    cursor: pointer;
+    transition: 1s;
+	transform:scale(1.2,1.2);
+}
+.opcao-sobre img{
+    width: 30%;
+}
